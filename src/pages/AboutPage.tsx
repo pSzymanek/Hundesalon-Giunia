@@ -150,6 +150,12 @@ export function AboutPage() {
               </div>
             </div>
           </div>
+          
+          <div className="mt-6 rounded-3xl overflow-hidden shadow-lg group relative aspect-[16/9] md:aspect-[21/9]">
+            <img src="/about/team-5.png" alt="Entspannendes Blovi Spa Bad" className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <p className="absolute bottom-6 left-6 text-white font-serif text-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-2 group-hover:translate-y-0">Wohlfühl-Bad im Blovi Spa</p>
+          </div>
         </div>
 
         {/* CTA Section */}
