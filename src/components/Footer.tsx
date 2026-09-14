@@ -69,7 +69,14 @@ export const Footer = ({ onOpenLegal, onOpenBooking }: FooterProps) => {
             <ul className="space-y-2.5 text-xs text-stone-400">
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-[var(--color-primary)] shrink-0 mt-0.5" />
-                <span>Affenbergstr. 5, 74189 Weinsberg</span>
+                <a 
+                  href="https://www.google.com/maps/place/Affenbergstr.+5,+74189+Weinsberg" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:text-white transition-colors"
+                >
+                  Affenbergstr. 5, 74189 Weinsberg
+                </a>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-emerald-500 shrink-0" />

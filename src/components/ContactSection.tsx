@@ -202,7 +202,7 @@ export const ContactSection = () => {
                   </div>
                   <p className="text-[11px] text-stone-600">Zentrale Lage &amp; bequeme Anfahrt</p>
                   <a
-                    href="https://maps.google.com"
+                    href="https://www.google.com/maps/place/Affenbergstr.+5,+74189+Weinsberg"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-[11px] font-bold text-[var(--color-primary)] hover:underline inline-block mt-1"
