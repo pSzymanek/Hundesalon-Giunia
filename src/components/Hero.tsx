@@ -1,4 +1,4 @@
-import { ArrowDownRight, Sparkles, MessageCircle, Star, ShieldCheck } from "lucide-react";
+import { ArrowDownRight, Sparkles, MessageCircle, ShieldCheck } from "lucide-react";
 
 interface HeroProps {
   onOpenBooking: () => void;
@@ -74,19 +74,6 @@ export const Hero = ({ onOpenBooking }: HeroProps) => {
                   <Sparkles className="w-3.5 h-3.5 text-amber-300" />
                   <span>100% Luxuspflege</span>
                 </div>
-              </div>
-            </div>
-
-            {/* Floating Glass Quality Badge */}
-            <div className="absolute -bottom-6 -left-4 sm:left-6 bg-white/95 backdrop-blur-md px-5 py-3.5 rounded-2xl shadow-xl border border-stone-200/80 flex items-center gap-3.5">
-              <div className="w-10 h-10 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center font-bold text-sm">
-                <Star className="w-5 h-5 fill-current" />
-              </div>
-              <div>
-                <div className="flex items-center gap-1 text-xs font-bold text-stone-900">
-                  <span>4.9 / 5.0 Google Bewertung</span>
-                </div>
-                <p className="text-[11px] text-stone-500">Aus über 180 echten Kundenstimmen</p>
               </div>
             </div>
           </div>
