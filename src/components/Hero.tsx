@@ -59,7 +59,7 @@ export const Hero = ({ onOpenBooking }: HeroProps) => {
           <div className="lg:col-span-7 relative">
             <div className="relative rounded-[2.5rem] overflow-hidden aspect-[16/11] shadow-2xl border border-stone-200/80 group">
               <img
-                src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=1200&q=80"
+                src="/hero-main.jpg"
                 alt="Boutique Hundesalon Giunia"
                 className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
               />
