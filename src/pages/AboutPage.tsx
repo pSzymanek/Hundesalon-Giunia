@@ -95,16 +95,22 @@ export function AboutPage() {
               </div>
             </div>
             
-            <div className="order-1 lg:order-2 rounded-3xl overflow-hidden shadow-2xl aspect-[4/5] lg:aspect-square relative group">
-              <img 
-                src="/about/blovi-spa.jpg" 
-                alt="Hund in der modernen Blovi Spa Wanne" 
-                className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
-              <div className="absolute bottom-6 left-6 right-6">
-                <p className="text-emerald-400 font-bold tracking-widest text-xs uppercase mb-1">Blovi Spa System</p>
-                <p className="text-white text-lg font-serif">Das höchste Level der Hundepflege.</p>
+            <div className="order-1 lg:order-2 grid grid-cols-2 gap-4">
+              <div className="rounded-3xl overflow-hidden shadow-2xl aspect-[3/5] relative group">
+                <img 
+                  src="/about/blovi-spa.jpg" 
+                  alt="Hund in der modernen Blovi Spa Wanne" 
+                  className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              </div>
+              <div className="rounded-3xl overflow-hidden shadow-2xl aspect-[3/5] relative group mt-8 md:mt-12">
+                <img 
+                  src="/about/team-5.png" 
+                  alt="Ozon-Therapie im Blovi Spa" 
+                  className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               </div>
             </div>
           </div>
@@ -149,12 +155,6 @@ export function AboutPage() {
                 <p className="absolute bottom-6 left-6 text-white font-serif text-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-2 group-hover:translate-y-0">Freude an der Pflege</p>
               </div>
             </div>
-          </div>
-          
-          <div className="mt-6 rounded-3xl overflow-hidden shadow-lg group relative aspect-[16/9] md:aspect-[21/9]">
-            <img src="/about/team-5.png" alt="Entspannendes Blovi Spa Bad" className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105" />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            <p className="absolute bottom-6 left-6 text-white font-serif text-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-2 group-hover:translate-y-0">Wohlfühl-Bad im Blovi Spa</p>
           </div>
         </div>
 
