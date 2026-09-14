@@ -30,7 +30,7 @@ export const Hero = ({ onOpenBooking }: HeroProps) => {
           <div className="lg:col-span-4 space-y-4 lg:pl-6 lg:border-l border-stone-200">
             <p className="text-sm text-stone-600 leading-relaxed">
               Willkommen bei <strong>Hundesalon Giunia</strong>. Wir verbinden präzise rassetypische Scherenschnitte
-              mit absoluter Ruhe, geduldiger Zuwendung und 100% natürlicher Naturkosmetik.
+              mit absoluter Ruhe, geduldiger Zuwendung und 100% Luxuspflege.
             </p>
 
             <div className="flex items-center gap-4 pt-1">
@@ -72,7 +72,7 @@ export const Hero = ({ onOpenBooking }: HeroProps) => {
                 </div>
                 <div className="hidden sm:flex items-center gap-1.5 bg-white/20 backdrop-blur-md px-3.5 py-1.5 rounded-full text-xs font-medium">
                   <Sparkles className="w-3.5 h-3.5 text-amber-300" />
-                  <span>100% Naturkosmetik</span>
+                  <span>100% Luxuspflege</span>
                 </div>
               </div>
             </div>
@@ -137,7 +137,7 @@ export const Hero = ({ onOpenBooking }: HeroProps) => {
             <div key={i} className="flex gap-8">
               <span>✦ 100% STRESSFREI</span>
               <span>✦ OHNE NARKOSE &amp; OHNE ZWANG</span>
-              <span>✦ 100% NATURKOSMETIK</span>
+              <span>✦ 100% LUXUSPFLEGE</span>
               <span>✦ HYDRAULISCHE EINSTIEGSWANNE</span>
               <span>✦ BEHUTSAME KATZENPFLEGE</span>
               <span>✦ RUNDUM-WELLNESS FÜR JEDE GRÖSSE</span>
