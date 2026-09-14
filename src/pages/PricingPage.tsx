@@ -95,7 +95,7 @@ export function PricingPage() {
                 </div>
               </div>
               <div className="order-1 lg:order-2 rounded-2xl overflow-hidden aspect-[4/3]">
-                <img src="/about/blovi-spa.jpg" alt="Blovi Spa Wanne" className="w-full h-full object-cover" />
+                <img src="/about/blovi-spa-blue.jpg" alt="Blovi Spa Wanne mit blauer Lichttherapie" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>
