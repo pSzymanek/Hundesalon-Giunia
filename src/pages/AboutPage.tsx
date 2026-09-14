@@ -110,6 +110,48 @@ export function AboutPage() {
           </div>
         </div>
 
+        {/* Gallery Section */}
+        <div className="mb-24">
+          <div className="text-center mb-12">
+            <span className="inline-block py-1 px-3 rounded-full bg-stone-100 text-stone-600 text-xs font-bold tracking-wider uppercase mb-3">
+              Impressionen
+            </span>
+            <h2 className="text-3xl md:text-4xl font-serif text-[var(--color-primary)]">
+              Liebevolle Pflege im Alltag
+            </h2>
+            <p className="text-stone-500 mt-4 max-w-2xl mx-auto">
+              Ein kleiner Einblick in unsere tägliche Arbeit. Jeder Vierbeiner wird bei uns mit größter Sorgfalt, Ruhe und viel Liebe behandelt.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="space-y-6">
+              <div className="rounded-3xl overflow-hidden shadow-lg group relative aspect-[4/3]">
+                <img src="/about/team-1.png" alt="Hundepflege im Salon" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <p className="absolute bottom-6 left-6 text-white font-serif text-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-2 group-hover:translate-y-0">Volle Aufmerksamkeit</p>
+              </div>
+              <div className="rounded-3xl overflow-hidden shadow-lg group relative aspect-square md:aspect-[4/5]">
+                <img src="/about/team-3.jpg" alt="Hundesalon Arbeit" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <p className="absolute bottom-6 left-6 text-white font-serif text-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-2 group-hover:translate-y-0">Feine Handarbeit</p>
+              </div>
+            </div>
+            <div className="space-y-6 md:mt-12">
+              <div className="rounded-3xl overflow-hidden shadow-lg group relative aspect-square md:aspect-[4/5]">
+                <img src="/about/team-2.jpg" alt="Sanftes Grooming" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <p className="absolute bottom-6 left-6 text-white font-serif text-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-2 group-hover:translate-y-0">Vertrauen & Geduld</p>
+              </div>
+              <div className="rounded-3xl overflow-hidden shadow-lg group relative aspect-[4/3]">
+                <img src="/about/team-4.png" alt="Glücklicher Hund" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <p className="absolute bottom-6 left-6 text-white font-serif text-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-2 group-hover:translate-y-0">Freude an der Pflege</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* CTA Section */}
         <div className="bg-[#25D366] rounded-[3rem] p-10 md:p-16 text-center text-white shadow-xl shadow-[#25D366]/20 relative overflow-hidden">
           <div className="relative z-10 max-w-2xl mx-auto space-y-6">
