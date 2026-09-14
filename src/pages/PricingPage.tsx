@@ -72,7 +72,7 @@ export function PricingPage() {
                 <h3 className="text-3xl md:text-4xl font-serif text-white">Blovi Spa &amp; Ozontherapie</h3>
                 <p className="text-stone-300 text-lg">
                   Entdecken Sie unsere exklusiven Behandlungen in der hochmodernen Blovi Spa Wanne.
-                  Perfekt für Allergiker, bei Hautproblemen oder einfach für pure Entspannung dank Mikrobäschen und Lichttherapie.
+                  Perfekt für Allergiker, bei Hautproblemen oder einfach für pure Entspannung dank Mikrobläschen und Lichttherapie.
                 </p>
                 
                 <div className="bg-white/5 rounded-2xl p-6 border border-white/10 mt-6">

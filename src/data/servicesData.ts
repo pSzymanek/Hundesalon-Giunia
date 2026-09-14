@@ -70,9 +70,7 @@ export const pricingData: PricingCategory[] = [
     title: "Wellness & Ozon",
     description: "Gesundheitsfördernde Behandlungen für Haut und Fell.",
     items: [
-      { id: "wel-ozon", name: "Ozontherapie (15 Min)", price: 20 },
-      { id: "wel-ozonbad", name: "Ozon-Wellness + Pflegebad", price: 35, pricePrefix: "ab" },
-      { id: "wel-pflege", name: "Wellness-Pflege", price: 25, pricePrefix: "ab" },
+      { id: "wel-ozonbad", name: "Ozon-Wellness + Pflegebad", price: 35, pricePrefix: "ab" }
     ]
   },
   {
