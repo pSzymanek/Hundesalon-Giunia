@@ -1,5 +1,4 @@
 import { Hero } from "../components/Hero";
-import { WhyUs } from "../components/WhyUs";
 import { ServicesPricing } from "../components/ServicesPricing";
 import { Testimonials } from "../components/Testimonials";
 import { FaqSection } from "../components/FaqSection";
@@ -15,7 +14,6 @@ export function Home({ onOpenBooking, onSelectService }: HomeProps) {
   return (
     <main className="flex-grow">
       <Hero onOpenBooking={onOpenBooking} />
-      <WhyUs />
       <ServicesPricing onSelectService={onSelectService} />
       <Testimonials />
       <FaqSection />
