@@ -57,7 +57,6 @@ export const Footer = ({ onOpenLegal, onOpenBooking }: FooterProps) => {
               <li><Link to="/preise" className="hover:text-white transition-colors">Leistungen &amp; Preise</Link></li>
               <li><Link to="/ueber-uns" className="hover:text-white transition-colors">Über uns</Link></li>
               <li><a href="/#warum-giunia" className="hover:text-white transition-colors">Warum Giunia?</a></li>
-              <li><a href="/#vorher-nachher" className="hover:text-white transition-colors">Vorher &amp; Nachher Galerie</a></li>
               <li><a href="/#bewertungen" className="hover:text-white transition-colors">Google Kundenstimmen (4.9★)</a></li>
               <li><a href="/#faq" className="hover:text-white transition-colors">Häufige Fragen (FAQ)</a></li>
               <li><a href="/#kontakt" className="hover:text-white transition-colors">Kontakt &amp; Anfahrt</a></li>
@@ -79,7 +78,7 @@ export const Footer = ({ onOpenLegal, onOpenBooking }: FooterProps) => {
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-blue-400 shrink-0" />
-                <a href="mailto:hallo@hundesalon-giunia.de" className="hover:text-white">hallo@hundesalon-giunia.de</a>
+                <a href="mailto:giuniahundesalon@gmail.com" className="hover:text-white">giuniahundesalon@gmail.com</a>
               </li>
             </ul>
             <div className="pt-2">

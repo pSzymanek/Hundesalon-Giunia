@@ -40,7 +40,7 @@ export const LegalModals = ({ type, onClose }: LegalModalProps) => {
               </div>
               <div>
                 <h4 className="font-bold text-stone-900 text-sm mb-1">Kontakt:</h4>
-                <p>Telefon: +49 179 1700661<br />E-Mail: hallo@hundesalon-giunia.de<br />Website: www.hundesalon-giunia.de</p>
+                <p>Telefon: +49 179 1700661<br />E-Mail: giuniahundesalon@gmail.com<br />Website: www.hundesalon-giunia.de</p>
               </div>
               <div>
                 <h4 className="font-bold text-stone-900 text-sm mb-1">Umsatzsteuer-Identifikationsnummer:</h4>

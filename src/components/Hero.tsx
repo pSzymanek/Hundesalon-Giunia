@@ -30,7 +30,7 @@ export const Hero = ({ onOpenBooking }: HeroProps) => {
           <div className="lg:col-span-4 space-y-4 lg:pl-6 lg:border-l border-stone-200">
             <p className="text-sm text-stone-600 leading-relaxed">
               Willkommen bei <strong>Hundesalon Giunia</strong>. Wir verbinden präzise rassetypische Scherenschnitte
-              mit absoluter Ruhe, geduldiger Zuwendung und 100% natürlicher Bio-Kosmetik.
+              mit absoluter Ruhe, geduldiger Zuwendung und 100% natürlicher Naturkosmetik.
             </p>
 
             <div className="flex items-center gap-4 pt-1">
@@ -72,7 +72,7 @@ export const Hero = ({ onOpenBooking }: HeroProps) => {
                 </div>
                 <div className="hidden sm:flex items-center gap-1.5 bg-white/20 backdrop-blur-md px-3.5 py-1.5 rounded-full text-xs font-medium">
                   <Sparkles className="w-3.5 h-3.5 text-amber-300" />
-                  <span>100% Bio-Shampoo</span>
+                  <span>100% Naturkosmetik</span>
                 </div>
               </div>
             </div>
@@ -107,19 +107,6 @@ export const Hero = ({ onOpenBooking }: HeroProps) => {
               </p>
             </div>
 
-            {/* Editorial Feature 2: Ultrasound Teeth Cleaning */}
-            <div className="p-6 rounded-3xl bg-white border border-stone-200/80 shadow-2xs hover:border-[var(--color-primary)]/40 transition-colors">
-              <div className="flex items-center gap-3 mb-2">
-                <div className="w-8 h-8 rounded-lg bg-[var(--color-primary-light)] text-[var(--color-primary)] flex items-center justify-center">
-                  <Sparkles className="w-4 h-4" />
-                </div>
-                <h3 className="font-serif-luxury text-lg font-bold text-stone-900">Emmi-Pet Ultraschall</h3>
-              </div>
-              <p className="text-xs text-stone-600 leading-relaxed">
-                Geräuschlose, vibrationsfreie Zahnreinigung gegen Zahnstein und Maulgeruch – schonend und ohne Tierarzt-Narkose.
-              </p>
-            </div>
-
             {/* Quick WhatsApp Concierge Bar */}
             <div className="p-5 rounded-3xl bg-[#25D366] text-white flex items-center justify-between gap-4 shadow-xl shadow-[#25D366]/20">
               <div>
@@ -150,8 +137,7 @@ export const Hero = ({ onOpenBooking }: HeroProps) => {
             <div key={i} className="flex gap-8">
               <span>✦ 100% STRESSFREI</span>
               <span>✦ OHNE NARKOSE &amp; OHNE ZWANG</span>
-              <span>✦ EMMI-PET ULTRASCHALL-ZAHNREINIGUNG</span>
-              <span>✦ 100% BIO-NATURKOSMETIK</span>
+              <span>✦ 100% NATURKOSMETIK</span>
               <span>✦ HYDRAULISCHE EINSTIEGSWANNE</span>
               <span>✦ BEHUTSAME KATZENPFLEGE</span>
               <span>✦ RUNDUM-WELLNESS FÜR JEDE GRÖSSE</span>

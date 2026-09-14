@@ -34,7 +34,7 @@ export const faqList: FaqItem[] = [
   {
     id: "faq-6",
     category: "Gesundheit",
-    question: "Wie funktioniert die Emmi-Pet Ultraschall-Zahnreinigung ohne Narkose?",
-    answer: "Die Emmi-Pet Bürste arbeitet mit echtem Ultraschall (bis zu 96 Millionen Schwingungen pro Minute). Sie ist völlig geräuschlos, vibriert nicht und wird einfach sanft an die Zähne gehalten. Die Ultraschallwellen dringen tief ins Zahnfleisch ein, zerstören Bakterien und weichen Zahnstein auf, sodass er schonend entfernt werden kann – ganz ohne risikoreiche Narkose beim Tierarzt!"
+    question: "Ist mein Hund während der Pflege angebunden?",
+    answer: "Nein, auf Galgen und Fixierungen verzichten wir komplett. Bei uns wird jeder Hund liebevoll und mit Geduld an die Pflege herangeführt. Sollte ein Tier extrem ängstlich oder wehrhaft sein, suchen wir gemeinsam nach schonenden Lösungen oder brechen im Zweifel zum Wohl des Tieres ab."
   }
 ];

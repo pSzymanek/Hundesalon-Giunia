@@ -23,7 +23,6 @@ export const Header = ({ onOpenBooking }: HeaderProps) => {
     { label: "Preise & Leistungen", href: "/preise" },
     { label: "Über uns", href: "/ueber-uns" },
     { label: "Philosophie", href: "/#philosophie" },
-    { label: "Verwandlungen", href: "/#verwandlungen" },
     { label: "Kontakt", href: "/#kontakt" }
   ];
 

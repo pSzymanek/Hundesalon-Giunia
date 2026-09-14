@@ -1,8 +1,6 @@
-
 import { Hero } from "../components/Hero";
 import { WhyUs } from "../components/WhyUs";
 import { ServicesPricing } from "../components/ServicesPricing";
-import { BeforeAfterGallery } from "../components/BeforeAfterGallery";
 import { Testimonials } from "../components/Testimonials";
 import { FaqSection } from "../components/FaqSection";
 import { ContactSection } from "../components/ContactSection";
@@ -19,7 +17,6 @@ export function Home({ onOpenBooking, onSelectService }: HomeProps) {
       <Hero onOpenBooking={onOpenBooking} />
       <WhyUs />
       <ServicesPricing onSelectService={onSelectService} />
-      <BeforeAfterGallery />
       <Testimonials />
       <FaqSection />
       <ContactSection />
