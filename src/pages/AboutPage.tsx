@@ -110,7 +110,12 @@ export function AboutPage() {
                   alt="Ozon-Therapie im Blovi Spa" 
                   className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent transition-opacity duration-500" />
+                <div className="absolute bottom-6 left-5 right-5">
+                  <p className="text-stone-200 text-xs font-medium leading-relaxed drop-shadow-lg text-balance">
+                    Ein besonderes SPA für Ihren Hund, das nicht nur entspannt, sondern auch Haut und Fell pflegt.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
