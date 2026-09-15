@@ -24,7 +24,7 @@ export const Footer = ({ onOpenLegal, onOpenBooking }: FooterProps) => {
             </div>
             <p className="text-xs text-stone-400 leading-relaxed max-w-sm">
               Exklusiver Salon für Hunde und Katzen. Liebevolles Grooming, rassetypische Scherenschnitte,
-              schonende Unterwollentfernung und Ultraschall-Zahnreinigung ohne Narkose und ohne Stress.
+              schonende Unterwollentfernung und Wellness-Pflege ohne Narkose und ohne Stress.
             </p>
           </div>
 
